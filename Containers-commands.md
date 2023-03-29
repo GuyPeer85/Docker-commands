@@ -37,7 +37,7 @@
 - `-v` or `--volumes`: Removes any associated volumes as well.
 - `-l` or `--link`: Removes any associated links (deprecated in newer Docker versions).
 
-**`inspect`:** Removes one or more containers.
+**`inspect`:** Displays detailed information on one or more containers or images.
 - `-f` or `--format`: Specifies a custom format to use for the output (in Go template format).
 - `--type`: Specifies the type of object to inspect (container or image).
 - `--size`: Shows the size of each object in the output (e.g. image layers, container filesystem).
@@ -56,11 +56,6 @@
 - `-t`: Specifies the number of seconds to wait before forcefully pausing the container.
 - `-f`: Forces the container to pause immediately.
 - `--time`: Specifies a custom timeout value in seconds for graceful pause.
-
-**`inspect`**: Displays detailed information on one or more containers or images.
-- `-f`: Specifies a custom format to use for the output.
-- `--type`: Specifies the type of object to inspect (container or image).
-- `--format`: Specifies a Go template to use for the output.
 
 **`top`**: Displays the running processes within a container.
 - `-a`: Shows all processes (including those that have finished).
