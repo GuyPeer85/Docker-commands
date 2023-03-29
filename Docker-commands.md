@@ -37,7 +37,7 @@
 - `--volumes`: Remove unused volumes.
 - `--filter`: Provide filter values to prune specific unused Docker resources.
 
-docker-compose: Define and run multi-container Docker applications.
+**`docker-compose`**: Define and run multi-container Docker applications.
 - `-f` or `--file`: Specify the location of the Compose file.
 - `-p` or `--project-name`: Specify a custom project name.
 - `--verbose`: Show verbose output.
